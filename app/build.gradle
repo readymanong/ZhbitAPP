@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.example.dm.zhbit"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 4
+        versionName "0.1.3"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:multidex:1.0.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:design:23.1.1'
+    //以下SDK开发者请根据需要自行选择
+    //bmob-sdk ：Bmob的android sdk包
+    compile 'cn.bmob.android:bmob-sdk:3.5.1'
+    //bmob-push：Bmob的推送包
+    compile 'cn.bmob.android:bmob-push:0.6'
+    //bmob-sms ：Bmob单独为短信服务提供的包
+    compile 'cn.bmob.android:bmob-sms:1.0.1'
+    compile 'com.github.chrisbanes:PhotoView:1.3.0'
+    // multiple image picker
+    compile 'com.github.sd6352051:android-image-picker:v1.0.1'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile files('libs/volley.jar')
+    compile 'com.android.support:cardview-v7:23.+'
+    compile 'com.afollestad.material-dialogs:commons:0.9.0.1'
+    compile files('libs/zxing-4.7.3.jar')
+    compile 'com.daimajia.numberprogressbar:library:1.2@aar'
+    compile 'me.yokeyword:indexablerecyclerview:1.0.5'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.github.Aspsine:SwipeToLoadLayout:1.0.4'
+    compile 'org.jsoup:jsoup:1.10.2'
+}

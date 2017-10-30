@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_course_aty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dm.zhbit.student.SelectCourseAty">
+    <RelativeLayout
+        android:id="@+id/home_title_rout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/teal">
+
+        <TextView
+            android:id="@+id/home_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="150dp"
+            android:text=" 选   课"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+</RelativeLayout>
+
+    <TextView
+        android:textSize="20dp"
+        android:text="欢迎大家进行选课！"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_title_rout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:layout_marginTop="29dp"
+        android:layout_width="374dp"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/tea"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="教师  ："/>
+        <EditText
+            android:id="@+id/select_tea_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="true"
+            android:ems="10"/>
+
+        <Spinner
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_tea_sp"
+            android:entries="@array/tea_name"
+            android:layout_weight="0.61" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/course"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课程  ："/>
+        <EditText
+            android:id="@+id/select_course_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="true"
+            android:ems="10"/>
+
+        <Spinner
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/selet_course_sp"
+            android:entries="@array/course_name"
+            android:layout_weight="0.54" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:text="取消"
+            android:id="@+id/empty_course_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginLeft="20dp"
+            android:text="确定"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_course_btn"
+            /></LinearLayout>
+</RelativeLayout>

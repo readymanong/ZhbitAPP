@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dm.zhbit">
+
+    <!-- 从Bmob开发者文档导入 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- 保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".main.FirstActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.bmob.v3.update.UpdateDialogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.ResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ZhiHu.ZhiHuNewsDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".me.MeSettingsAty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".student.StudentEvaluateAty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".student.SearchteacherAty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".student.StudentSuggestionAty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".teacher.SearchevaluationAty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".teacher.SearchsuggestionAty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".student.SearchcourseAty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".teacher.TeaPlanAty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".administrator.Adm_MainAty"
+            android:screenOrientation="portrait" />
+        <activity android:name=".administrator.Adm_TeaControlAty" />
+        <activity android:name=".administrator.Adm_CourseControlAty" />
+        <activity android:name=".administrator.Adm_TeaplanAty" />
+        <activity android:name=".administrator.Adm_StuControlAty" />
+        <activity android:name=".administrator.Adm_EvalAty" />
+        <activity android:name=".administrator.Adm_SuggestAty" />
+        <activity android:name=".main.SecondSchoolNewDisplayAty" />
+        <activity android:name=".administrator.Adm_Eval_AnalyAty" />
+        <activity android:name=".student.SelectCourseAty"></activity>
+    </application>
+
+</manifest>

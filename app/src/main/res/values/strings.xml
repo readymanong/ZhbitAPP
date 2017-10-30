@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Zhbitapp</string>
+    <string name="logo_text">欢迎使用计算机学院教学质量点评及建议系统 </string>
+
+    <!--XListView string res-->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!--PhotoView string res-->
+    <string name="date_format">EEE,  MMM d,  yyyy</string>
+
+    <string name="evaluate_et1">注重讲课艺术，激发学生学习热情：</string>
+    <string name="evaluate_et2">讲授内容纯熟，讲解条理清晰：</string>
+    <string name="evaluate_et3">理论联系实际，注重能力培养：</string>
+    <string name="evaluate_et4">认真辅导答疑，认真批改作业：</string>
+</resources>

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="3dip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    
+     <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#A7A5A5"/>
+    
+    <include 
+        layout="@layout/adm_eva_analysis_item"
+        android:id="@+id/table_title"/>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1.5dip"
+        android:background="#686867"/>
+
+    <ListView
+        android:id="@+id/a_eva_alylist"
+        android:divider="#B4B3B3"
+        android:dividerHeight="1.0dip"
+        android:scrollbars="none"
+        android:background="@drawable/listview_bg"
+        android:cacheColorHint="@android:color/transparent"
+        android:fadingEdge="none"
+        android:layout_width="fill_parent"
+        android:layout_height="465dp"
+        android:layout_weight="0.29">
+    </ListView>
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/info_sava_btn"
+        android:text="保存"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/info_getfile_btn"
+        android:text="导出"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</LinearLayout>

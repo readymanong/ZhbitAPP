@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/student_title_rout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/teal">
+
+        <TextView
+            android:id="@+id/title_function_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="评价与建议"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+        <ImageButton
+            android:id="@+id/tea_searevl_next"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/item_teal_selector_no_bord"
+            android:src="@drawable/resizeapi"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView
+        android:textSize="20dp"
+        android:text="欢迎查看评价建议！"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/course"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课程  ："/>
+        <TextView
+            android:id="@+id/search_course_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:editable="true"
+            android:ems="10"
+            android:layout_weight="0.13" />
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/se_sp"
+            android:entries="@array/course_name"
+            android:layout_marginRight="10dp"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="教学评价及建议"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--<LinearLayout-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:text="评价项目"-->
+            <!--android:layout_marginLeft="30dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<TextView-->
+            <!--android:text="评分"-->
+            <!--android:layout_marginLeft="200dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp">-->
+        <!--<TextView-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:text="@string/evaluate_et1"-->
+            <!--android:textSize="15dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/search_project1_et" />-->
+        <!--<TextView-->
+            <!--android:id="@+id/search_score1_tv"-->
+            <!--android:textSize="10dp"-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="12dp"-->
+            <!--android:layout_marginTop="20dp" />-->
+    <!--</LinearLayout>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/search_project2_et"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginStart="16dp"-->
+            <!--android:text="@string/evaluate_et2"-->
+            <!--android:textSize="15dp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/search_score2_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginEnd="12dp"-->
+            <!--android:layout_marginRight="12dp"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="number"-->
+            <!--android:textSize="10dp" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp">-->
+        <!--<TextView-->
+            <!--android:text="@string/evaluate_et3"-->
+            <!--android:textSize="15dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/evaluate_et3"-->
+            <!--android:layout_alignBottom="@+id/et_score3"-->
+            <!--android:layout_toLeftOf="@+id/et_score3"-->
+            <!--android:layout_toStartOf="@+id/et_score3"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginEnd="20dp" />-->
+        <!--<TextView-->
+            <!--android:id="@+id/search_score3_tv"-->
+            <!--android:textSize="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="number"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginRight="12dp"-->
+            <!--android:layout_marginEnd="12dp" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:id="@+id/evaluate_et4"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/evaluate_et4"-->
+            <!--android:textSize="15dp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/search_score4_tv"-->
+            <!--android:layout_width="95dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:textSize="10dp" />-->
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="评价得分："
+            android:textColor="@color/blue_ice"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:textSize="15dp"
+            android:id="@+id/search_course_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="评价人数："
+            android:textColor="@color/blue_ice"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:textSize="15dp"
+            android:id="@+id/search_eva_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="参评率："
+            android:textColor="@color/blue_ice"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:textSize="15dp"
+            android:id="@+id/search_eva_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/search_evaluate_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/item_teal_selector_no_bord"
+        android:text="查  看"
+        android:textColor="@color/white"
+        android:textSize="16dp"/>
+
+</LinearLayout>

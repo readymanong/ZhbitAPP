@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <RelativeLayout
+        android:id="@+id/home_title_rout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/teal">
+
+        <TextView
+            android:id="@+id/adm_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="120dp"
+            android:text="教 学 评 价 操 作"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/a_eva_list"
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_weight="1.24">
+
+    </ListView>
+    <!--<Button-->
+        <!--android:id="@+id/analy_btn"-->
+        <!--android:text="详细"-->
+        <!--android:layout_width="158dp"-->
+        <!--android:layout_height="wrap_content" />-->
+</LinearLayout>

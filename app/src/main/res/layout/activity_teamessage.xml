@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:background="#f2f2f2"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/tck"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="14dp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/tm_id"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#333"
+                    android:text="工号"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/tm_name"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#333"
+                    android:text="姓名"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:text="年龄"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tm_sex"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingRight="15dp"
+                    android:textColor="#333"
+                    android:text="性别"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/tm_course"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingRight="15dp"
+                    android:textColor="#333"
+
+                    android:text="教授课程"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/tm_introduce"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingRight="15dp"
+                    android:textColor="#333"
+
+                    android:text="简介"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lstTea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <EditText
+                android:id="@+id/edtTid"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="工号" />
+
+            <EditText
+                android:id="@+id/edtTname"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="姓名" />
+
+            <EditText
+                android:id="@+id/edtTsex"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="性别" />
+
+            <EditText
+                android:id="@+id/edtTcourse"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="教授课程" />
+
+            <EditText
+                android:id="@+id/edtTintroduce"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="简介" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/t_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="增" />
+
+            <Button
+                android:id="@+id/t_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="删" />
+
+            <Button
+                android:id="@+id/t_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="改" />
+
+            <Button
+                android:id="@+id/t_query"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查" />
+            <Button
+                android:id="@+id/t_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="清空" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

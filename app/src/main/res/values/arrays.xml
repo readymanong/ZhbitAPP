@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tea_name">
+        <item>陈东伟</item>
+        <item>韩迪</item>
+        <item>胡敬鹏</item>
+        <item>唐忠兵</item>
+        <item>郭素梅</item>
+        <item>吴方</item>
+        <item>龚有明</item>
+    </string-array>
+    <string-array name="course_name">
+        <item> C语言程序设计课程实践</item>
+        <item> 	C语言程序设计（A）</item>
+        <item>思想道德修养与法律基础</item>
+        <item>应用文写作</item>
+        <item>大学英语（B）1</item>
+        <item>高等数学（A）1</item>
+        <item>体育1</item>
+        <item>电路与模拟电子技术（A）</item>
+        <item>面向对象方法课程设计</item>
+        <item>面向对象程序设计（C++）</item>
+        <item>计算机网络（C）</item>
+        <item>单片机应用项目实践</item>
+        <item>嵌入式系统应用开发实践</item>
+        <item>计算机组织与体系结构实践</item>
+        <item>计算机组织与体系结构</item>
+        <item>物联网技术中间件实践</item>
+        <item>物联网智能系统设计与开发实训</item>
+    </string-array>
+    <string-array name="select_course">
+        <item> (4学分）C语言程序设计课程实践</item>
+        <item> （4学分）C语言程序设计（A）</item>
+        <item>（2学分） 思想道德修养与法律基础</item>
+        <item>（2学分）应用文写作</item>
+        <item>（6学分）大学英语（B）1</item>
+        <item>（2学分）高等数学（A）1</item>
+        <item>（2学分）体育1</item>
+        <item>（2学分）电路与模拟电子技术（A）</item>
+        <item>（2学分）面向对象方法课程设计</item>
+        <item>（2学分）面向对象程序设计（C++）</item>
+        <item>（2学分）计算机网络（C）</item>
+        <item>（2学分）单片机应用项目实践</item>
+        <item>（2学分）嵌入式系统应用开发实践</item>
+        <item>（2学分）计算机组织与体系结构实践</item>
+        <item>（2学分）计算机组织与体系结构</item>
+        <item>（2学分）物联网技术中间件实践</item>
+        <item>（2学分）物联网智能系统设计与开发实训</item>
+    </string-array>
+</resources>
