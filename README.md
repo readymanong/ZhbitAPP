@@ -18,7 +18,8 @@ Hello ZhbitAPP
 <figure class="third">
     <img src="http://upload-images.jianshu.io/upload_images/8088008-4aef23e9efc52bdc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="240">
     <img src="http://upload-images.jianshu.io/upload_images/8088008-990c231cca72c916.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="240">
-    <img src="http://upload-images.jianshu.io/upload_images/8088008-2a5bc077e9622f1b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="240">
+    <figure class="third">
+    <img src="http://upload-images.jianshu.io/upload_images/8088008-dc58cd94f3636352.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="240"></figure>
 </figure>
 
 <figure class="third">
