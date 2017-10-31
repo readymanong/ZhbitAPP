@@ -1,47 +1,30 @@
-Hello MyApplication
 
-## 重拾Android开发
-> * 基本UI设计和操作
-> * 测试代码Demo
-> * 一些基本的小而精的Demo
-> * 框架的引入
-> * 完整的项目
+## 系统Android端的开发
+Hello ZhbitAPP
 
 
 ## 主要内容
 
-这是一款基于Android传统的MVC技术的个人APP， 包含四个主要页面：
+这是是教学评价与建议系统基于基于MVC设计的Android端的一款APP， 包含四个主要页面：
 
-1. Home页面：数据来源知乎日报，自动解析；
-2. 社区页面：后端采用Bmob存储数据；
-3. 发现页面：使用一些第三方库实现一些小功能；
-4. 我的页面：实现一个完整的个人用户系统功能。
+1. 知乎资讯页面：调用和解析知乎日报的ＡＰＩ；
+2. 学院页面：采用Jsoup框架爬取学院公告栏的信息；
+3. 主页页面：以Bmob作为系统后端，实现教师、学生和管理员的功能；
+4. 我的页面：实现用户注册和登录功能。
 
 
 ## 展示
 
 <figure class="third">
-    <img src="https://o8zyn0sct.qnssl.com/app_login.png" height="400" width="240">
-    <img src="https://o8zyn0sct.qnssl.com/app_home.png" height="400" width="240">
-    <img src="https://o8zyn0sct.qnssl.com/app_com.png" height="400" width="240">
+    <img src="http://upload-images.jianshu.io/upload_images/8088008-5a59d28f6db51699.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="240">
+    <img src="http://upload-images.jianshu.io/upload_images/8088008-990c231cca72c916.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="240">
+    <img src="http://upload-images.jianshu.io/upload_images/8088008-4a25aba4536c440b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="240">
 </figure>
 
 <figure class="third">
-    <img src="https://o8zyn0sct.qnssl.com/app_find.png" height="400" width="240">
-    <img src="https://o8zyn0sct.qnssl.com/app_me.png" height="400" width="240">
-    <img src="https://o8zyn0sct.qnssl.com/app_register.png" height="400" width="240">
+    <img src="http://upload-images.jianshu.io/upload_images/8088008-b60a36fb9bb1385d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="240">
+    <img src="http://upload-images.jianshu.io/upload_images/8088008-88cb76b21cdfa623.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="240">
 </figure>
 
 
-## 参考资料
-
-> * PhotoView框架: https://github.com/chrisbanes/PhotoView
-> * 图片多选框架: https://github.com/sd6352051/android-image-picker
-> * EventBus框架: https://github.com/greenrobot/EventBus
-> * Volley框架: http://blog.csdn.net/guolin_blog/article/details/17482095
-> * Glide框架: https://github.com/bumptech/glide
-> * material-dialogs: https://github.com/afollestad/material-dialogs
-> * ZXingLib: https://github.com/xuyisheng/ZXingLib
-> * NumberProgressBar: https://github.com/daimajia/NumberProgressBar
-> * IndexableRecyclerView: https://github.com/YoKeyword/IndexableRecyclerView
 
